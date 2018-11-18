@@ -10,8 +10,12 @@ public class MakeACaptain {
 	
 	public static MakeACaptain getCaptain(){
 		
-		if (_captain == null)
-				_captain = new MakeACaptain();
+		if (_captain == null){
+			_captain = new MakeACaptain();
+			System.out.println("New captain has been elected");
+			
+		}
+				
 		else{
 			System.out.println("You already have a captain");
 			System.out.println("Send him for the toss");	
